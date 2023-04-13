@@ -1,0 +1,150 @@
+/* Edit listing */
+/* header style start */
+/* .edit-top-header{padding: 20px 0;} */
+.edit-top-header .back-wrap {background: #FFF;padding: 5px;border: 1px solid #bbb;border-radius: 8px;width: 46px;height: 46px;display: flex;align-items: center;justify-content: center;}
+.edit-top-header .image-wrap { max-width: 110px;max-height: 65px;object-fit: cover;border-radius: 8px;overflow: hidden;}
+.edit-top-header .post-title a{color: #0D0A19; font-weight: 600;}
+.edit-top-header .post-title .tag{color: #FF9623; font-weight: 600;}
+/* header style end */
+body address{font-style: italic;font-weight: 400;font-size: 16px;line-height: 24px;color: #353940;}
+.w-100{width: 100% !important;}
+.ac-edit-form-wrapper .gform_wrapper .h1 .gsection_title,
+.ac-edit-form-wrapper .gform_wrapper .h1.max-450 .gsection_title {font-size: 28px;text-align: left;max-width: 100%;}
+.ac-edit-form-wrapper .gform_wrapper .h1 .gsection_title:before{content: "1"; background: #EC1B34; color: #FFF;font-weight: 700;font-size: 22px;line-height: 32px;width: 39px;height: 39px;    display: inline-flex;justify-content: center;align-items: center;border-radius: 50%;margin-right: 15px;top: -3px;position: relative;}
+.ac-edit-form-wrapper .gform_wrapper .h1.two .gsection_title:before{content: "2";}
+.ac-edit-form-wrapper .gform_wrapper .h1.three .gsection_title:before{content: "3";}
+.ac-edit-form-wrapper .gform_wrapper .h1.four .gsection_title:before{content: "4";}
+.ac-edit-form-wrapper .gf_progressbar_wrapper,
+.ac-edit-form-wrapper .gform_wrapper .field-gray-wrapper.disclaimer-box{display: none;}
+
+body .ac-edit-form-wrapper .gform_wrapper.gravity-theme .gform_footer{display: block;height: 0px;opacity: 0;padding: 0;overflow: hidden;}
+
+.ac-edit-form-wrapper .gform_page{display: block !important;}
+.ac-edit-form-wrapper .gform_page:not(:last-child){border-bottom: 1px solid #E4E6E8;padding-bottom: 30px;}
+
+body #primary .icon-text-button-component, body .icon-text-button-component {padding: 25px;background: #FFF;border-radius: 10px;border:1px solid #E4E6E8;}
+body #primary .icon-text-button-component.grey-bg,body .icon-text-button-component.grey-bg{background: #F5F6F7;}
+
+.edit-right-col .wp-element-button:before{content: "";margin-right: 6px;background: url(../images/submit.svg) no-repeat;background-size: cover;height: 18px;width: 18px;display: inline-block;margin-bottom: -3px;}
+.icon-text-button-component .kt-inside-inner-col .wp-block-image, 
+.icon-text-button-component .kt-inside-inner-col > p{margin-bottom: 20px;}
+.icon-text-button-component .kt-inside-inner-col > p{max-width:290px;}
+.icon-text-button-component .kt-inside-inner-col h6{margin-top:0;margin-bottom: 10px;}
+.edit-right-col .message-btn .wp-element-button:before{background: url(../images/message.png) no-repeat;margin-bottom: -6px;}
+.edit-right-col .delete-btn .wp-element-button:before{background: url(../images/delete.png) no-repeat;margin-bottom: -5px;}
+body .gform_page .hide-on-sale-a-car{display: none;}
+body .ac-edit-form-wrapper .gform_page .hide-on-sale-a-car{display: flex;}
+
+.gform_wrapper.gravity-theme .gfield input[disabled],
+.gform_wrapper.gravity-theme .gfield textarea[disabled]{background: #E4E6E8; color: #908E8E;}
+
+.ac-edit-form-wrapper h3.gsection_title{font-size: 18px;}
+
+.warning-wrap {text-align: left;background: rgba(236, 27, 52, 0.1);border-radius: 10px;padding: 10px 20px;}
+.warning-wrap p{font-weight: 400;font-size: 14px;line-height: 21px; margin: 0;}
+.warning-wrap .warning-title{font-weight: 600;color: #EC1B34;}
+
+.woocommerce-account .addresses .title h6{float: left;text-transform: capitalize;}
+body .select2-container--default .select2-selection--single .select2-selection__rendered{height: 100%;display: flex;align-items: center;}
+body .select2-container--default .select2-selection--single .select2-selection__arrow{top: 10px;right: 10px}
+body .woocommerce-form-fields-wrapper,body .woocommerce-billing-fields__field-wrapper{display: flex;flex-wrap: wrap;gap: 2%;margin-bottom: 20px;}
+body .woocommerce form .form-row{width: 49%;display: flex;flex-direction: column;justify-content: flex-end;margin-bottom: 20px;}
+body .woocommerce form .form-row:last-child{width: 100%;}
+body .woocommerce form .form-row.woocommerce-SavedPaymentMethods-saveNew {
+    display: block;
+}
+#payment ul.wc_payment_methods li.wc_payment_method input[type=radio]:first-child:checked+label{
+	background: transparent;
+    padding: 0;
+}
+.woocommerce-MyAccount-content .button{font-weight: 600;font-size: 14px;line-height: 21px;text-transform: capitalize;}
+body .woocommerce form .form-row label{margin-bottom: 5px;text-transform: capitalize;}
+body .woocommerce form .show-password-input, 
+body .woocommerce-page form .show-password-input{top: 14px}
+body .woocommerce-checkout, body .woocommerce-order{padding: 40px 0;}
+.profile-photo-wrapper .avatar{width: 90px;border-radius: 90px;height: 90px;object-fit: cover;}
+body .woocommerce form .profile-photo-wrapper .upload-field-wrap{flex: 1}
+body .woocommerce form .profile-photo-wrapper .upload-field-wrap .profile-pic-title{font-weight: 600 !important;font-size: 16px !important;line-height: 24px !important;color: #0D0A19 !important;cursor: pointer;}
+body .woocommerce form .profile-photo-wrapper .upload-field-wrap .profile-pic-label{position: relative;display: flex;gap: 10px;font-weight: 600 !important;color: #EC1B34 !important;    width: 160px;height: 40px;border: 1px solid;border-radius: 10px;justify-content: center;align-items: center;cursor: pointer;}
+.profile-photo-wrapper .upload-field-wrap input[type="file"]{position: absolute;left: 0;width: 100%;height: 100%;opacity: 0;cursor: pointer;}
+
+
+#fep-menu{margin-bottom: 30px;}
+#fep-menu .fep-button{font-weight: 400;font-size: 14px;line-height: 21px;border-radius: 10px;}
+#fep-menu .fep-button-active,
+#fep-menu .fep-button:hover{color: #EC1B34;background: inherit;font-weight: 600;}
+#fep-menu #fep-menu-newmessage,
+body .front-end-pm-form form button[type="submit"]{font-weight: 600;color: #FFF;background: #EC1B34;}
+#fep-menu #fep-menu-newmessage:before{content: "+";margin-right: 8px;}
+#fep-menu #fep-menu-newmessage:after{content: none;}
+#fep-menu .fep-button,
+#fep-menu .fep-button:hover,
+.fep-button, .fep-button-active {border: none !important;}
+#fep-menu a{position: relative;}
+#fep-menu a:not(:last-child):after{content: "";height: 22px;width: 1px;background: #BBB;position: absolute;right: 0;top: 0;bottom: 0;margin: auto;}
+#fep-footer,
+#fep-content,
+#fep-content p,
+#fep-content form{padding: 0;margin: 0;border: 0;}
+#fep-header,
+/* #fep-menu-announcements, */
+.fep-form-field.fep-form-field-allow_ann{display: none !important;}
+.fep-pagination a.fep-pagination-a {text-decoration: none !important;}
+#fep-content > div > form, .fep-form .fep-form-field{margin:0 0 10px;position: relative;}
+#fep-content > div > form:before, .fep-form .fep-form-field .token-input-input-token-facebook:before{content: "";background-image: url('../images/search.png'); background-repeat: no-repeat;background-position: center; background-color: #EC1B34;width: 34px;height: 34px;position: absolute;left: 10px;top: 10px;border-radius: 8px;}
+#fep-content > div > .fep-form:before{content: none;}
+#fep-content > div > form input:not([type="checkbox"]){border: 1px solid #E4E6E8;box-shadow: 0px 3px 13px rgb(153 155 168 / 15%);border-radius: 8px;width: 100% !important;height: 56px;padding: 10px 20px 10px 50px;font-weight: 400;font-size: 16px;line-height: 24px;color: #908E8E;margin: 0;}
+body .fep-font-red, body .fep_unread_message_count_hide_if_zero{color: #908E8E;}
+.fep-action-table select{border: 1px solid #BBBBBB;border-radius: 8px;padding: 10px 40px 10px 10px;min-width: 150px;font-weight: 600;font-size: 14px;line-height: 21px;}
+.fep-action-table > div > div{width: max-content;width: max-content;display: inline-flex;}
+.fep-action-table > div > div.fep-filter{float: right;}
+.fep-bulk-action+div > .fep-button{background: #EC1B34;border-radius: 10px;padding: 11px 20px;font-weight: 600;font-size: 14px;line-height: 21px;color: #FFFFFF;margin-left: 10px;}
+#fep-table .fep-table-row .fep-column{padding: 10px;border-bottom: 1px solid #E4E6E8;font-size: 14px;font-weight: 600;vertical-align: middle;}
+#fep-table .fep-table-row .fep-column > img{max-width: 62px;}
+.fep-table .fep-message-date,fep-message-excerpt{font-size: 14px;color: #908E8E;font-weight: 400;font-size: 14px;line-height: 21px;}
+.fep-cb-check-uncheck-all-div{padding: 10px;border-bottom: 1px solid #E4E6E8;margin-bottom: 20px;font-size: 12px;color: #0D0A19;text-transform: capitalize;}
+.fep-cb-check-uncheck-all-div .fep-cb-check-uncheck-all{vertical-align: text-top;margin-right: 10px;}
+#fep-table .fep-table-row.fep-table-row-unread{background: #FFF6F8;}
+body .fep-unread-class{background-color: #EC1B34;box-shadow: none;font-size: 0;height: 6px;line-height: 0;padding: 0;top: 4px;width: 6px;right: -12px;}
+#fep-content h2{font-weight: 600;font-size: 18px;line-height: 26px;}
+
+body ul.token-input-list-facebook, li.token-input-input-token-facebook {width: 100%;position: relative;border: none;margin-bottom: 10px;}
+body #fep-content ul.token-input-list-facebook li.token-input-token-facebook{background: #FFF6F8;padding: 5px 10px;border: 0;margin: 0 5px 5px 0;}
+body #fep-content ul.token-input-list-facebook li.token-input-token-facebook *{color: #EC1B34; font-size: 12px;}
+body .fep-form label{margin-bottom: 10px;font-weight: 600;font-size: 14px;line-height: 21px;}
+#fep-content > div > form #message_title{padding-left: 20px;}
+body .front-end-pm-form form .fep-field #fep_upload .fep-attachment-field-div{display: flex;align-items: center;}
+body .front-end-pm-form form .fep-field #fep_upload input.fep-attachment-field-input{font-size: 0;background: url('../images/upload-attachment.svg') no-repeat;width: 180px !important;height: auto;box-shadow: none;border: 0;padding: 0;cursor: pointer;height:25px;}
+body .front-end-pm-form form .fep-field #fep_upload input.fep-attachment-field-input::-webkit-file-upload-button{font-size: 0;border: 0;background: 0;width: 40px !important;}
+body .front-end-pm-form form .fep-field #fep_upload .fep-attachment-field-a,
+body .front-end-pm-form form .fep-field #fep-attachment-field-add{float: revert;font-size: 12px;font-weight: 600;text-decoration: none;position: relative;}
+body .front-end-pm-form form .fep-field #fep_upload .fep-attachment-preview-custom{width: 35px;height: 35px;object-fit: cover;border-radius: 50%;margin-right: 10px;margin-bottom: 10px;box-shadow: 0 10px 10px -7px rgba(0,0,0,0.5);}
+body .front-end-pm-form form .fep-field #fep_upload .fep-attachment-field-div .fep-attachment-field-a{display: none;}
+
+.logged-user-details img{width: 40px !important;height: 40px !important;object-fit: cover;border-radius: 50%;}
+
+.notification-list {margin: 40px auto;}
+.notification-list .notification-text{position: relative;padding:20px 30px 20px 75px;background: #F5F6F7;border-radius: 10px;}
+.notification-list .notification-text.active,
+.notification-list .notification-text:nth-child(1),
+.notification-list .notification-text:nth-child(2) {background: #FFF7F8;}
+.notification-list .notification-text .icon-wrap{background: #E4E6E8; height: 42px;width: 42px;border-radius: 10px;display: inline-flex;position: absolute;left: 20px;top: 0;bottom: 0;margin: auto;}
+.notification-list .notification-text.active .icon-wrap,
+.notification-list .notification-text:nth-child(1) .icon-wrap,
+.notification-list .notification-text:nth-child(2) .icon-wrap{background: #EC1B34;}
+.notification-list .notification-text svg path{fill: #908E8E}
+.notification-list .notification-text.active svg path,
+.notification-list .notification-text:nth-child(1) svg path,
+.notification-list .notification-text:nth-child(2) svg path{fill: #FFF}
+.notification-count {position: absolute;top: 0;right: 5px;background: #EC1B34;height: 18px;width: 22px;border-radius: 4px;font-weight: 700;font-size: 12px;line-height: 16px;color: #FFF;display: inline-flex;align-items: center;justify-content: center;}
+
+.notification-list .notification-text a{color: #0D0A19;}
+.notification-list .notification-text a:hover{color: #EC1B34;text-decoration: underline;}
+.notification-heading .notification-count{position: static;vertical-align: middle;}
+body .gfield .gpfup__files{margin: 0;}
+body .gfield .gpfup__files .gpfup__filesize{display: none;}
+@media (max-width: 992px){
+	body .woocommerce form .form-row{
+		width: 100%;
+	}
+}

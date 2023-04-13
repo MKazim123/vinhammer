@@ -1,0 +1,31 @@
+#masthead {
+  box-shadow: 0px 8px 12px rgba(153, 155, 168, 0.15);
+}
+.main-navigation .primary-menu-container > ul > li.menu-item > a {
+  font-weight: 600;
+  color: rgba(13, 10, 25, 1) !important;
+}
+.main-navigation .primary-menu-container > ul > li.menu-item.current_page_item > a{
+  color: #EC1B34 !important;
+}
+.menu .menu-item .menu-icon {
+  display: inline-block;
+  background: rgba(236, 27, 52, 0.1);
+  color: rgba(236, 27, 52, 1);
+  padding: 2px 9px;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 10px;
+}
+.account-menu .sub-menu .menu-icon {
+  background-color: transparent !important;
+  vertical-align: middle;
+}
+.hide-desktop{display: none;}
+.mobile-menu-container .menu .border-top-mob{border-top: 1px solid #EC1B34;margin-top: 10px;padding-top: 10px;}
+.mobile-menu-container .menu .menu-item-45 .menu-icon{display: none;}
+
+.mobile-menu-container .hide-desktop{display: inline-block;}
+.mobile-menu-container .menu .notification img{display: none;}
+.mobile-menu-container .menu .notification-count{top: 15px;}
+

@@ -1,0 +1,299 @@
+.product_listing {padding: 40px 0;}
+body ul.products, body .products{display: flex;flex-wrap: wrap;row-gap: 30px;column-gap: 30px;margin: 0 !important;padding: 0;justify-content: space-between;}
+body .home-listing  ul.products{row-gap: 20px;column-gap: 20px;}
+body .home-listing .products{justify-content: center;}
+body .products .product{overflow:hidden;width: 100%;max-width: 400px;position: relative;border: 1px solid #E4E6E8;border-radius: 14px;padding: 20px;}
+.products .product .auction-img{width: 100%;height: 204px;object-fit: cover;border-radius: 8px;}
+.product h2.woocommerce-loop-product__title{display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;font-weight: 600;font-size: 18px;line-height: 26px;margin-bottom:10px;}
+.product .tag{font-size: 14px;line-height: 21px;color: #908E8E;min-width: 65px;font-weight: 400;}
+.product .auction-desc .tag{min-width: 115px;}
+.product .auction-desc .tag.time-tag{min-width: 90px;}
+.product .auction-desc .expired{display: none;}
+.product .tag.reserve-tag{border: 1px solid #46B4C0;border-radius: 2px;padding: 4px;font-size: 12px;font-weight: 600;text-transform: uppercase;color: #0D0A19;min-width: 90px;text-align: center;}
+.product .text {font-size: 14px;line-height: 21px;font-weight: 600;color: #0D0A19;text-align: right;}
+.product .text.active .woocommerce-Price-amount.amount{font-weight: 700;font-size: 22px;line-height: 32px;color: #EC1B34;}
+.product .uwa_auction_product_countdown{box-shadow: none;margin: 0;padding: 0;background: transparent;}
+.product #uwa_auction_countdown .uwa_auction_product_countdown, 
+.product #uwa_auction_countdown .countdown_row{background: transparent;margin: 0;padding: 0;font-size: 14px;flex-wrap: nowrap;width: max-content;}
+.product #uwa_auction_countdown .countdown_row .countdown_section{font-size: 14px !important; width: auto !important; column-gap: 2px;flex-direction: row;align-items: center;text-transform: lowercase;padding: 0 2px;color: #0D0A19;}
+.product #uwa_auction_countdown .countdown_row .countdown_section .countdown_amount{padding: 0;font-size: 14px;}
+.product #uwa_auction_countdown{width: auto !important;}
+.product .divider{height: 0px; width: 100%;border: 0.9px solid #E4E6E8;margin: 15px 0;}
+.product .uwa-watchlist-button,
+.product .auction_share-wrapper{width: 100%;position: relative;margin: 0;display: flex;flex-wrap: wrap;}
+.product .uwa-watchlist-button .uwa-watchlist-action,
+.product .auction_share-wrapper .share-btn{width: 100%;text-align: center; padding: 13px 15px;background: #F5F6F7;border-radius: 10px;font-size: 14px;font-weight: 600;color: #908E8E;text-decoration: none;text-transform: capitalize;min-width: 120px;height: auto !important;}
+.product .auction_share-wrapper .share-btn{min-width: 180px;}
+.product .auction_share-wrapper .share-btn svg{margin-right: 5px;}
+.product .auction_share-wrapper .share-btn:hover svg path{fill: #FF9623}
+.product .uwa-watchlist-button .uwa-watchlist-action i{margin-right: 2px;}
+.product .watchlist-notice{margin: 0;width: 100%;}
+.product .watchlist-notice span.watchlist-error{font-size: 12px;position: absolute;bottom: 70px;left: 20px;margin: auto;width: max-content;color: #000;font-weight: 600;}
+.product .watchlist-notice .button.watchlist-error{color: #FFF;font-size: 14px;font-weight: 600;padding: 13px 20px;border-radius: 10px;width: 100%;text-align: center;}
+.product .uwa-watchlist-button .uwa-watchlist-action.remove-uwa,
+.product .auction_share-wrapper .share-btn:hover,
+.product .uwa-watchlist-button .uwa-watchlist-action:hover,
+.product .uwa-watchlist-button .uwa-watchlist-action:focus{background: rgba(255, 150, 35, 0.1) !important;color: #FF9623;}
+.product .place-bid{font-size: 14px;font-weight: 600;padding: 13px 20px;border-radius: 10px;width: 100%;text-align: center;}
+body .products .product.uwa_auction_status_expired{padding-bottom: 55px;}
+.product .expired-row{position: absolute;left: 0;right: 0;bottom: 0;padding: 14px;text-align: center;background: rgba(255, 150, 35, 0.1);font-size: 14px;}
+.product .expired-row.ended{background: rgba(236, 27, 52, 0.1);}
+.product .expired-row .expired-title{font-weight: 600;color: #FF9623;}
+.product .expired-row.ended .expired-title{color: #EC1B34;}
+
+.share-popup-wrap svg {width: 25px;margin: auto;}
+.share-popup-wrap .heateor_sss_sharing_ul a {margin:0 8px !important;}
+.share-popup-wrap .heateor_sss_facebook svg:hover path,
+.share-popup-wrap .heateor_sss_button_linkedin svg:hover path,
+.share-popup-wrap .heateor_sss_email svg:hover path{fill: #3b5998 !important;}
+
+   
+.featured-list .featured-img {padding: 50px 65px; background: url('../images/featured-bg.png') no-repeat;background-position: right;background-size: contain;}
+.featured-list .featured-img .auction-img{max-width: 600px;width: 100%;border-radius: 10px;}
+.featured-list .product #uwa_auction_countdown .countdown_row .countdown_section{flex-direction: column;gap:10px;text-transform: capitalize;}
+.featured-list .product #uwa_auction_countdown .countdown_row .countdown_section .countdown_amount {padding: 10px 13px;border: 1px solid #BBBBBB;border-radius: 4px;font-size: 28px;line-height: 1;font-weight: 700;color: #ec1b34;}
+.featured-list .product #uwa_auction_countdown .countdown_row{gap: 15px;}
+.featured-list .product .expired {font-size: 10px;}
+.featured-list .product .woocommerce-loop-product__title {font-size: 18px;margin-top: 20px !important;}
+.featured-sep {height: 40px;width: 1px;margin: 0 30px;background: #EDE8E9;}
+.featured-list .product .text{text-align: left;}
+.confirm-bid.featured-list .product .text{font-weight: 700;font-size: 28px !important;line-height: 36px;}
+.confirm-bid.featured-list .featured-sep{height: 60px; margin: 0 40px;}
+.featured-list .product .place-bid{width: auto;}
+
+
+.auction-listing-sec .kt-row-column-wrap {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.auction-listing-sec .filter-col,
+body.woocommerce-account .woocommerce .account-navigation-wrap{
+    width: 100%;
+    max-width: 340px;
+    padding: 40px 35px 40px 20px;
+    border-right: 1px solid #ddd;
+}
+body.woocommerce-account .woocommerce .account-navigation-wrap{padding-right: 30px;padding-left: 30px;}
+.auction-listing-sec .listing-col,
+body .woocommerce .woocommerce-MyAccount-content{
+    flex: 1;
+    padding-top: 40px;
+}
+body .auction-listing-sec .filter-col .f_heading{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #0D0A19;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+body .auction-listing-sec .filter-col .f_heading.top-heading,
+body .count{
+    color: #908E8E;
+    text-transform: capitalize;
+}
+body .count{width: 15px}
+body .auction-listing-sec .filter-col label{cursor: pointer;}
+.filter-row .filter-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EDE8E9;
+}
+
+
+/* custom accordian start */
+.faq-drawer__content-wrapper {
+    max-height: 9850px;
+    overflow: hidden;
+    transition: 0.25s ease-in-out;
+    padding-top: 15px;
+}
+.faq-drawer__content-wrapper .count{width: 30px;text-align: right;}
+.faq-drawer__title {
+    position: relative;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+}
+
+.faq-drawer__title::after {
+    content: "\f068";
+    float: right;
+    position: relative;
+    top: 2px;
+    transition: 0.35s ease-in-out;
+    font-family: 'Font Awesome 6 Free';
+    border: 2px solid;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #EC1B34;
+}
+
+.faq-drawer__trigger:checked + .faq-drawer__title + .faq-drawer__content-wrapper {
+    max-height: 0px;
+    padding: 0;
+}
+
+.faq-drawer__trigger:checked + .faq-drawer__title::after {
+    content: '\f067';
+    color: #908E8E;
+    transition: 0.25s ease-in-out;
+}
+
+.faq-drawer input[type="checkbox"] {
+    display: none;
+}
+/* custom accordian end */
+.search_auction{position: relative;}
+.search-wrap {
+    position: relative;
+}
+.search-wrap i.fa.fa-search {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    padding: 10px;
+    color: #FFF;
+    border-radius: 7px;
+    background: #EC1B34;
+    border-radius: 7.6087px;
+    font-size: 14px;
+}
+.search-wrap input[type="text"] {
+    width: 100%;
+    border: 1px solid #E4E6E8;
+    box-shadow: 0px 3px 13px rgb(153 155 168 / 15%);
+    border-radius: 8px;
+    height: 56px;
+    padding-left: 50px;
+}
+.sort-wrapper{
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+    top: -60px;
+}
+.expired-auctions .sort-wrapper{display: none;}
+.sort-wrapper select {
+    padding: 7px;
+    border: 0;
+    background: #F5F6F7 !important;
+    border-radius: 8px;
+    min-width: 150px;
+    appearance: none;
+    color: #0D0A19;
+    font-weight: 600;
+    font-size: 14px;
+    height: 40px;
+    padding-left: 30px;
+}
+.sort-wrapper select + h5 {
+    font-size: 12px;
+    color: #0D0A19;
+    font-weight: 600;
+    font-size: 14px;
+    height: 40px;
+    padding-left: 30px;
+    position: absolute;
+    top: -12px;
+    display: block;
+}
+.sort-wrapper:before{
+    content: "";
+    background: url('../images/sort-filter.png') no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 11px;
+    height: 13px;
+    bottom: 0;
+    margin: auto;
+}
+.sort-wrapper:after{
+    content: "";
+    background: url('../images/arrow-down.png') no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    width: 10px;
+    height: 7px;
+    bottom: 0;
+    margin: auto;
+}
+nav.woocommerce-pagination, body #fep-content .fep-pagination-ul{margin-top: 30px;}
+nav.woocommerce-pagination .page-numbers, body #fep-content .fep-pagination-ul .fep-pagination-li *{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #BBBBBB;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #0D0A19;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+}
+body #fep-content .fep-pagination-ul .fep-pagination-li *{margin:5px;}
+nav.woocommerce-pagination .page-numbers:hover,
+body #fep-content .fep-pagination-ul .fep-pagination-li *:hover {
+    border-color: transparent;
+}
+nav.woocommerce-pagination .page-numbers.current, body #fep-content .fep-pagination-ul .fep-pagination-li.active span{
+    background: #EC1B34;color: #FFF;border-color: #EC1B34;
+}
+.fep-read-receipt-individual,.fep-message-title .date{color: #908E8E;text-align: right;font-size: 12px;}
+body .fep-message-toggle-all{margin: 0; margin-top: 20px;background: #EC1B34;color: #FFF;}
+body .fep-message-toggle-all:hover{background: #B11628;}
+@media(max-width: 1280px) and (min-width: 1024px){
+    body ul.products, body .products{row-gap: 10px;column-gap: 10px;}
+    body .products .product{max-width: 48%;padding: 13px;}
+    .product .text, .product #uwa_auction_countdown .countdown_row .countdown_section{font-size: 12px !important;}
+}
+@media(max-width: 1280px){
+    .auction-listing-sec .kt-row-column-wrap{gap:10px}
+    .auction-listing-sec .filter-col,body.woocommerce-account .woocommerce .account-navigation-wrap{max-width: 250px;}
+}
+@media(max-width: 1024px){
+    body.kadence-account-nav-left.woocommerce-account .woocommerce{flex-wrap: wrap;}
+    .auction-listing-sec .filter-col,body.woocommerce-account .woocommerce .account-navigation-wrap{max-width: 100%;padding: 40px 0 0;border: 0;margin: 0;}
+    body.kadence-account-nav-left.woocommerce-account .woocommerce-MyAccount-content{padding: 0;padding-top: 20px;}
+    body.kadence-account-nav-left.woocommerce-account.woocommerce-payment-methods .woocommerce-MyAccount-content{padding-bottom: 40px;}
+    body ul.products, body .products{justify-content: center;}
+    .listing-col .kt-inside-inner-col > h3{text-align: center;}
+    .search-wrap.sort-wrapper {
+        display: inline-flex;
+        position: relative;
+        left: 0;
+        margin-top: -15px;
+        margin-bottom: 20px;
+        top: 0;
+        width: 100%;
+    }
+    .sort-wrapper select{width: 100%; height: 47px;}
+    
+}
+@media(max-width: 992px){
+    body .featured-list .featured-product{flex-direction: column;gap: 40px;align-items: flex-start;}
+    .featured-product .auction-details{width: 100%}
+    body ul.products,body .products{justify-content: center;}
+    .featured-list .featured-img {padding:28px 35px 28px 0;margin: auto;}
+    .auction-listing-sec .listing-col, body .woocommerce .woocommerce-MyAccount-content{padding-top: 0;}
+}
+@media(max-width: 768px){
+    .product .watchlist-notice span.watchlist-error{display: none !important;}
+}
+@media(max-width: 520px){
+    /* #uwa_auction_countdown .countdown_row .countdown_section {
+        font-size: 12px !important;
+    } */
+}
